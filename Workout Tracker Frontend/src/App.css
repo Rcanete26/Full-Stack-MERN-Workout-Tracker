@@ -1,0 +1,362 @@
+/*  ===== MOBILE styles (reside at the top and are inherited by all devices) ===== */
+/*  ===== See tablet, desktop, and print @media queries at the bottom. */
+
+/*   ----- Imports  -----  */
+/* Add fonts from the app's server 
+@font-face {                
+  font-family: 'FontName';
+  src: url('FontName.woff2') format('woff2');
+} 
+          */
+
+/* ...or hosted services like Google Fonts 
+@import url(//fonts.googleapis.com/css?family=Font+Name);
+          */
+
+@import "../node_modules/modern-normalize/modern-normalize.css";
+/* npm install modern-normalize 
+            Resets elements for browser consistency.  
+            http://nicolasgallagher.com/about-normalize-css/ 
+          */
+
+/* Component-specific stylesheets, if any 
+@import "component1.css";   
+          */
+
+/*   ----- Variables  -----  */
+/* :root {
+  --custom-color-name:;
+  --custom-embellishment-name:;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+/*  ----- Viewport ----- elements inherited by all remaining elements ----- */
+body {
+  /* Can alternatively define in html {} or :root {} */
+  color: #171219;
+  background-color: #e0fbfc;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.1em;
+  margin: 7%;
+  padding: 5%;
+  text-align: center;
+}
+
+/* ----- Anchors ----- Text links */
+a {
+}
+a:link {
+}
+a:hover {
+}
+a:active {
+}
+a:visited {
+}
+
+/*  ----- Navigation ----- Override text links for navigation only.  */
+nav {
+  text-align: center;
+}
+nav a {
+  background-color: #5c6b73;
+  border: 4px #9db4c0;
+  border-radius: 5px 5px 5px 5px;
+  border-style: solid;
+  color: #171219;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-right: 5px;
+  padding: 3px 20px 5px 20px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #c2dfe3;
+  color: #e0fbfc;
+}
+
+/*  ----- Page layout blocks -----  */
+header,
+footer {
+  background-color: #5c6b73;
+  color: #171219;
+  border: 5px #9db4c0;
+  border-radius: 0%;
+  border-style: solid;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0% 0% 5% 0%;
+  padding: 0%;
+}
+main {
+  background-color: none;
+  color: #323031;
+  border: none;
+  padding: 0.5%;
+}
+section {
+}
+article {
+}
+#topic1 {
+}
+#topic2 {
+}
+#gallery1 {
+}
+#gallery2 {
+}
+div {
+}
+aside {
+}
+footer {
+}
+
+/*  -----  Typography  ----- */
+p {
+}
+br {
+}
+ol,
+ul,
+dl {
+}
+li {
+}
+dt {
+}
+dd {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+} /* Define consistant font family.*/
+h1 {
+}
+h2 {
+}
+h3 {
+}
+h4 {
+}
+h5 {
+}
+h6 {
+}
+
+abbr {
+}
+acronym {
+}
+address {
+}
+blockquote {
+}
+q {
+}
+cite {
+}
+em {
+}
+hr {
+}
+mark {
+}
+s {
+}
+span {
+}
+strong {
+}
+sub {
+}
+sup {
+}
+time {
+}
+
+/*  ----- Coding or instructional typography ----- */
+pre {
+}
+code {
+}
+kbd {
+}
+samp {
+}
+var {
+}
+del {
+}
+ins {
+}
+
+/*  ----- Table ----- */
+table {
+  text-align: center;
+  border-collapse: collapse;
+  border: 5px #9db4c0 solid;
+  border-radius: 10px;
+  padding: 1px;
+  margin: auto;
+}
+caption {
+}
+thead {
+}
+tbody {
+}
+tfoot {
+}
+tr {
+  border: 0px none;
+  padding: 1px;
+}
+tr:nth-child(even) {
+  background-color: #c2dfe3;
+}
+th {
+  border: 0px none;
+  padding: 10px;
+}
+td {
+  border: 5px #9db4c0 solid;
+  padding: 2px;
+}
+td:nth-child(1) {
+}
+colgroup {
+}
+data {
+}
+datalist {
+}
+
+/*  ----- Form ----- */
+form {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  font-size: 1em;
+  padding: 1%;
+}
+fieldset {
+  padding: 1%;
+}
+legend {
+}
+label {
+}
+button {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1em;
+  padding: 1%;
+}
+input {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1em;
+  padding: 1%;
+  border: 5px #9db4c0 solid;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 2px;
+}
+output {
+}
+meter {
+}
+progress {
+}
+select {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1em;
+  padding: 1%;
+}
+optgroup {
+}
+option {
+}
+textarea {
+}
+
+/* ----- Media ----- */
+figure {
+}
+figcaption {
+}
+img {
+}
+svg {
+}
+picture {
+}
+source {
+}
+iframe {
+}
+video {
+}
+audio {
+}
+embed {
+}
+object {
+}
+
+/*  ----- Classes for alignment, positioning, widths, grids, embellishments, and animation -----  */
+.floatright {
+}
+.floatleft {
+}
+.center-middle {
+}
+
+.ten {
+}
+.twenty {
+}
+.thirty {
+}
+.forty {
+}
+.fifty {
+}
+.sixty {
+}
+.seventy {
+}
+.eighty {
+}
+
+.radius {
+}
+.circle {
+}
+.boxshadow {
+}
+.tshadow {
+}
+.gradient {
+}
+.shape {
+}
+
+@keyframes App-logo {
+}
+
+/*   ===== TABLET  media query overrides mobile styles ===== */
+@media all and (min-width: 600px) {
+}
+
+/*   ===== DESKTOP  media query overrides mobile and tablet styles ===== */
+@media all and (min-width: 1080px) {
+}
+
+/*   ===== PRINT  media query overrides previous styles =====  */
+@media print {
+}
